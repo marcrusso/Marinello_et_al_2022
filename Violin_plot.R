@@ -18,8 +18,6 @@ plot_Metadati_gene<-function(gene){
   print(p)
 }
 
-
-
 # NFKB IRF target GSEA
 list_targets <- list(lista_IRF3_new, lista_NFKB1_new)
 names(lista_targets)[1] <- "IRF3_targets"
